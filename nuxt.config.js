@@ -1,4 +1,5 @@
 const pkg = require('./package')
+require('dotenv').config()
 
 module.exports = {
   mode: 'universal',
@@ -34,7 +35,16 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [],
+  modules: [
+    '@nuxtjs/dotenv',
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: process.env.GAID,
+        debug: true
+      }
+    ]
+  ],
 
   /*
   ** Build configuration
