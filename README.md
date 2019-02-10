@@ -21,7 +21,7 @@ $ cd ga-ecommerce-test-nuxt
 GAID=UA-XXXXXXXXX-X
 ```
 
-## ローカルで起動する
+## ローカルで起動する
 
 ```bash
 # 依存ファイルを全てインストールする
