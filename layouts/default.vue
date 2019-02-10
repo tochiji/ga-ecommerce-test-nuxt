@@ -25,12 +25,14 @@ html {
 }
 
 .button--green {
+  width: 80vh;
   display: inline-block;
   border-radius: 4px;
   border: 1px solid #3b8070;
   color: #3b8070;
   text-decoration: none;
   padding: 10px 30px;
+  margin: 5px 0;
 }
 
 .button--green:hover {
@@ -39,13 +41,14 @@ html {
 }
 
 .button--grey {
+  width: 80vh;
   display: inline-block;
   border-radius: 4px;
   border: 1px solid #35495e;
   color: #35495e;
   text-decoration: none;
   padding: 10px 30px;
-  margin-left: 15px;
+  margin: 5px 0;
 }
 
 .button--grey:hover {
